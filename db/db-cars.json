@@ -1,0 +1,593 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Chevrolet",
+      "bodytype": "Car",
+      "model": "Spark",
+      "year": 2021,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "170 L",
+      "favourite": "Yes",
+      "motor": [
+        "Cilindrada: 1.4L",
+        "Dirección: Asistida eléctricamente",
+        "Cilindros/válvulas: 4 / 16",
+        "Potencia: 98HP @ 6200RPM",
+        "Torque: 94NM @ 4400RPM",
+        "Transmisión: Manual de 5 velocidades",
+        "Tipo de combustible: Gasolina"
+      ],
+      "exterior": [
+        "Limpiabrisas delantero y posterior",
+        "",
+        "Medida de neumáticos: 165/65R14",
+        "Parrilla frontal",
+        "Rieles portaequipaje",
+        "Parrilla frontal negra"
+      ],
+      "safety": [
+        "Cinturón par el piloto de altura regulable",
+        "Inmovilizador de motor",
+        "Seguro para niños en puertas posteriores"
+      ],
+      "dimensions": [
+        "Peso bruto: 1345kg",
+        "Capacidad de carga: 412kg",
+        "Capacidad combustible: 35L",
+        "Capacidad del maletero: 170L",
+        "Número de pasajeros: 5"
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "Chevrolet",
+      "bodytype": "Car",
+      "model": "Joy",
+      "year": 2023,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "280 L",
+      "favourite": "Yes",
+      "motor": [
+        "Cilindrada: 1.5L Turbo",
+        "Dirección: Asistida eléctricamente",
+        "Cilindros/válvulas: 4 / 16",
+        "Potencia: 148HP @ 5500RPM",
+        "Torque: 250NM @ 1600-3600RPM",
+        "Transmisión: Automática CVT",
+        "Tipo de combustible: Gasolina"
+      ],
+      "exterior": [
+        "Faros delanteros: Proyección halógenos",
+        "Faros traseros: LED",
+        "Medida de neumáticos: 215/55R18",
+        "Sunroof"
+      ],
+      "safety": [
+        "Airbags: 4",
+        "Cámara de reversa",
+        "Frenos de disco en las 4 ruedas",
+        "Control de estabilidad",
+        "Control de tracción"
+      ],
+      "dimensions": [
+        "Peso bruto: 1950kg",
+        "Capacidad de carga: 450kg",
+        "Capacidad combustible: 52L",
+        "Capacidad del maletero: 489L",
+        "Número de pasajeros: 5"
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Chevrolet",
+      "bodytype": "Car",
+      "model": "Onix",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "470 L",
+      "favourite": "Yes"
+    },
+    {
+      "id": 4,
+      "brand": "Chevrolet",
+      "bodytype": "SUV",
+      "model": "Tracker",
+      "year": 2021,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "392 L",
+      "favourite": "No"
+    },
+    {
+      "id": 5,
+      "brand": "Chevrolet",
+      "bodytype": "SUV",
+      "model": "Captiva",
+      "year": 2022,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "489 L",
+      "favourite": "No"
+    },
+    {
+      "id": 6,
+      "brand": "Chevrolet",
+      "bodytype": "SUV",
+      "model": "Equinox",
+      "year": 2023,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "468 L",
+      "favourite": "No"
+    },
+    {
+      "id": 7,
+      "brand": "Chevrolet",
+      "bodytype": "SUV",
+      "model": "Trailblazer",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "878 L",
+      "favourite": "No"
+    },
+    {
+      "id": 8,
+      "brand": "Chevrolet",
+      "bodytype": "Pick-up",
+      "model": "Colorado",
+      "year": 2023,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "1061 L",
+      "favourite": "Yes"
+    },
+    {
+      "id": 9,
+      "brand": "Chevrolet",
+      "bodytype": "Pick-up",
+      "model": "N400",
+      "year": 2023,
+      "level": 2,
+      "passengers": 8,
+      "trunk": "500 L",
+      "favourite": "No"
+    },
+    {
+      "id": 10,
+      "brand": "Chevrolet",
+      "bodytype": "Truck",
+      "model": "NRR",
+      "year": 2022,
+      "level": 1,
+      "passengers": 2,
+      "trunk": "6.5 Ton",
+      "favourite": "No"
+    },
+    {
+      "id": 11,
+      "brand": "Chevrolet",
+      "bodytype": "Truck",
+      "model": "NPR",
+      "year": 2022,
+      "level": 2,
+      "passengers": 2,
+      "trunk": "4.8 Ton",
+      "favourite": "No"
+    },
+    {
+      "id": 12,
+      "brand": "KIA",
+      "bodytype": "Car",
+      "model": "Rio",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "480 L",
+      "favourite": "No"
+    },
+    {
+      "id": 13,
+      "brand": "KIA",
+      "bodytype": "Car",
+      "model": "Picanto",
+      "year": 2023,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "255 L",
+      "favourite": "No"
+    },
+    {
+      "id": 14,
+      "brand": "KIA",
+      "bodytype": "SUV",
+      "model": "Seltos",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "433 L",
+      "favourite": "No"
+    },
+    {
+      "id": 15,
+      "brand": "KIA",
+      "bodytype": "SUV",
+      "model": "Sonet",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "392 L",
+      "favourite": "No"
+    },
+    {
+      "id": 16,
+      "brand": "Ford",
+      "bodytype": "Car",
+      "model": "Mustang",
+      "year": 2023,
+      "level": 1,
+      "passengers": 4,
+      "trunk": "382 L",
+      "favourite": "No"
+    },
+    {
+      "id": 17,
+      "brand": "Ford",
+      "bodytype": "SUV",
+      "model": "Escape",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "1062 L",
+      "favourite": "No"
+    },
+    {
+      "id": 18,
+      "brand": "Ford",
+      "bodytype": "SUV",
+      "model": "Edge",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "1110L",
+      "favourite": "No"
+    },
+    {
+      "id": 19,
+      "brand": "Ford",
+      "bodytype": "SUV",
+      "model": "Expedition",
+      "year": 2022,
+      "level": 1,
+      "passengers": 7,
+      "trunk": "547 L",
+      "favourite": "No"
+    },
+    {
+      "id": 20,
+      "brand": "Ford",
+      "bodytype": "SUV",
+      "model": "Explorer",
+      "year": 2023,
+      "level": 1,
+      "passengers": 7,
+      "trunk": "515 L",
+      "favourite": "No"
+    },
+    {
+      "id": 21,
+      "brand": "Ford",
+      "bodytype": "Pick-up",
+      "model": "Ranger",
+      "year": 2022,
+      "level": 1,
+      "passengers": 5,
+      "trunk": "1396 kg",
+      "favourite": "No"
+    },
+    {
+      "id": 22,
+      "brand": "Ford",
+      "bodytype": "Pick-up",
+      "model": "F150",
+      "year": 2023,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "954 kg",
+      "favourite": "No"
+    },
+    {
+      "id": 23,
+      "brand": "Renault",
+      "bodytype": "Car",
+      "model": "Kwid",
+      "year": 2022,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "300 L",
+      "favourite": "No"
+    },
+    {
+      "id": 24,
+      "brand": "Renault",
+      "bodytype": "Car",
+      "model": "Sandero",
+      "year": 2021,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "328 L",
+      "favourite": "No"
+    },
+    {
+      "id": 25,
+      "brand": "Renault",
+      "bodytype": "Car",
+      "model": "Logan",
+      "year": 2023,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "510 L",
+      "favourite": "No"
+    },
+    {
+      "id": 26,
+      "brand": "Renault",
+      "bodytype": "SUV",
+      "model": "Captur",
+      "year": 2022,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "422 L",
+      "favourite": "No"
+    },
+    {
+      "id": 27,
+      "brand": "Renault",
+      "bodytype": "SUV",
+      "model": "Duster",
+      "year": 2021,
+      "level": 2,
+      "passengers": 5,
+      "trunk": "445 L",
+      "favourite": "No"
+    },
+    {
+      "id": 28,
+      "brand": "Renault",
+      "bodytype": "SUV",
+      "model": "Koleos",
+      "year": 2023,
+      "level": 1,
+      "passengers": 5,
+      "trunk": "458 L",
+      "favourite": "No"
+    },
+    {
+      "id": 29,
+      "brand": "Renault",
+      "bodytype": "Pick-up",
+      "model": "Oroch",
+      "year": 2022,
+      "level": 3,
+      "passengers": 5,
+      "trunk": "683 L",
+      "favourite": "No"
+    },
+    {
+      "id": 30,
+      "brand": "Renault",
+      "bodytype": "Pick-up",
+      "model": "Alaskan",
+      "year": 2023,
+      "level": 1,
+      "passengers": 5,
+      "trunk": "3035 kg",
+      "favourite": "No"
+    },
+    {
+      "id": 31,
+      "brand": "Foton",
+      "bodytype": "Truck",
+      "model": "FHR",
+      "year": 2022,
+      "level": 3,
+      "passengers": 2,
+      "trunk": "2.5 Ton",
+      "favourite": "No"
+    },
+    {
+      "id": 32,
+      "brand": "Foton",
+      "bodytype": "Truck",
+      "model": "FKR",
+      "year": 2023,
+      "level": 3,
+      "passengers": 2,
+      "trunk": "3.3 Ton",
+      "favourite": "No"
+    },
+    {
+      "id": 33,
+      "brand": "Foton",
+      "bodytype": "Truck",
+      "model": "FPR",
+      "year": 2022,
+      "level": 2,
+      "passengers": 2,
+      "trunk": "5 Ton",
+      "favourite": "No"
+    },
+    {
+      "id": 34,
+      "brand": "Foton",
+      "bodytype": "Truck",
+      "model": "FRR",
+      "year": 2022,
+      "level": 2,
+      "passengers": 2,
+      "trunk": "6.5 Ton",
+      "favourite": "No"
+    },
+    {
+      "id": 35,
+      "brand": "Foton",
+      "bodytype": "Truck",
+      "model": "FVR",
+      "year": 2023,
+      "level": 1,
+      "passengers": 2,
+      "trunk": "12.1 Ton",
+      "favourite": "No"
+    }
+  ],
+  "contracts": [
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 1
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 2,
+      "cost": 80
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 3
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 4,
+      "cost": 80
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 5
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 6,
+      "cost": 80
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 7
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 8
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 9
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 10,
+      "cost": 80
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 11
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 12
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 13
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 14
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "id": 15
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 16
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 17
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 18
+    },
+    {
+      "startDate": "2022-03-10T00:00:00.000-05:00",
+      "endDate": "2022-03-12T00:00:00.000-05:00",
+      "objectID": "3",
+      "state": "Awaiting confirmation",
+      "cost": 80,
+      "id": 19
+    }
+  ]
+}

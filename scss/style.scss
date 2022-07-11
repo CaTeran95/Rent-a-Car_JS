@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@import './partials/carInfo';
+
+body {
+	font-family: "Roboto", sans-serif;
+
+    header {
+        padding: 2rem 5rem;
+        background-color: #d5ebff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            h1 {
+                margin: 0;
+            }
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+
+            li {
+                padding: 0.25rem 1rem;
+                margin: 0rem 1rem;
+                border-radius: 2rem;
+
+                a {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #353535;
+                }
+
+                &.active, &:hover {
+                    background-color: #abe0ff;
+                }
+
+                
+            }
+        }
+
+        .userOptions {
+            .mainIcon {
+                margin: 0 2rem;
+                padding: 0.75rem;
+                border-radius: 2rem;
+            }
+
+            .userListMenu {
+                padding: 2rem;
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                right: 5rem;
+                z-index: 10;
+                background-color: #d5ebff;
+                border-radius: 0 0 0 2rem;
+                font-size: 1.25rem;
+                align-content: end;
+
+                p {
+                    padding-right: 1rem;
+                    // margin: 0;
+                    text-align: end;
+                }
+
+                .userMenuOption {
+                    margin: 0.5rem 0;
+                    padding: 0.5rem 0;
+                    align-self: stretch;
+                    display: flex;
+                    text-decoration: none;
+                    color: black;
+                    flex-direction: row;
+                    gap: 1rem;
+                    justify-content: flex-end;
+
+                    i {
+                        width: 2.25rem;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+
+                    &:hover{
+                        background-color: #aed4f8;
+                    }
+                }
+            }
+
+            &:hover{
+
+                .userListMenu {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    .card .fav-btn{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        border: 1px solid #0b5ed7;;
+        border-radius: 50%;
+        
+        .favButton {
+            padding: 0.5rem;
+            margin: auto;
+            color: #0b5ed7;
+        }
+
+        &.isFav {
+            border: 1px solid #aa0101;
+
+            .favButton {
+                color: #aa0101;
+            }
+        }
+    }
+
+	.carLogo {
+		width: 100%;
+		// border: 1px solid #000;
+		border-radius: 20%;
+	}
+
+	.card-colors {
+		background: linear-gradient(#abe0ff, #d8ecf8);
+		color: #353535;
+	}
+
+	.fa-solid {
+		font-size: 2rem;
+	}
+
+	.car-title {
+		font-size: 1.25rem;
+	}
+
+	.specs-title-text {
+		font-size: 0.65rem;
+		font-weight: 300;
+	}
+	.specs-value-text {
+		line-height: 1.25;
+		font-size: 1rem;
+	}
+}

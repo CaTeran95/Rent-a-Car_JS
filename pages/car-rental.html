@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Car rental</title>
+	</head>
+	<body>
+		<input type="date" name="startDate" id="startDate" value="2022-03-10" />
+		<input type="date" name="endDate" id="endDate" value="2022-03-12" />
+		<input type="number" name="carID" id="carID" value="3" />
+		<button id="createContract">Create contract</button>
+		<button id="updateContract">Update contract</button>
+
+		<!-- Luxon script -->
+		<script src="https://cdn.jsdelivr.net/npm/luxon@2.4.0/build/global/luxon.min.js"></script>
+		<script src="/js/Contract.js"></script>
+		<script>
+            // Select DOM elements that provide information about the contract:
+			let createContract = document.querySelector("#createContract");
+			let updateContract = document.querySelector("#updateContract");
+            // Create an event listener to start the process of registration of a contract:
+			createContract.addEventListener("click", () => {
+                // Get the start and end dates from the DOM, provided by the user:
+				let startDate = document.querySelector("#startDate");
+				let endDate = document.querySelector("#endDate");
+                // Get the car ID to determine the applicable fare for this contract:
+				let carID = document.querySelector("#carID");
+                // Create luxon elements for the dates (This is important for interval calculation):
+				startDate = luxon.DateTime.fromISO(startDate.value);
+				endDate = luxon.DateTime.fromISO(endDate.value);
+
+                carID = carID.value;
+                // Contract creation from the information already provided:
+                let contract = new Contract(startDate, endDate, carID);
+                // Posting the contract on project's API: (Timeout is necessary to allow the function setCost() from class Contract getting information from the API about this contract car, therefore determine fares and cost.)
+				setTimeout(() => {
+                    sessionStorage.setItem('contract', contract.id);
+					fetch("http://localhost:3000/contracts", {
+						method: "POST",
+						body: JSON.stringify(contract),
+						headers: {
+							"Content-type": "application/json; charset=UTF-8",
+						},
+					});
+				}, 200);
+			});
+		</script>
+	</body>
+</html>

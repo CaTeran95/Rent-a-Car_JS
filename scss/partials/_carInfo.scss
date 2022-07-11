@@ -1,0 +1,30 @@
+#carInfo {
+    max-width: 1320px;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 10% 80% auto;
+    grid-template-areas:
+        'carPicture carTitle'
+        'carPicture carInfo'
+        'carPicture buttons';
+
+    .carPicture {
+        width: 100%;
+        grid-area: 'carPicture';
+    }
+
+    .carTitle {
+        width: 100%;
+        grid-area: 'carTitle';
+    }
+
+    .carInfo {
+        grid-area: 'carInfo';
+        display: flex;
+        flex: row wrap;
+    }
+
+    .buttons {
+        grid-area: 'buttons';
+    }
+}

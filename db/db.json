@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "brand": "Chevrolet",
+    "bodytype": "Car",
+    "model": "Spark",
+    "year": 2021,
+    "agenda": 1045
+  },
+  {
+    "id": 2,
+    "brand": "Chevrolet",
+    "bodytype": "Car",
+    "model": "Joy",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 3,
+    "brand": "Chevrolet",
+    "bodytype": "Car",
+    "model": "Onix",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 4,
+    "brand": "Chevrolet",
+    "bodytype": "SUV",
+    "model": "Tracker",
+    "year": 2021,
+    "agenda": 1045
+  },
+  {
+    "id": 5,
+    "brand": "Chevrolet",
+    "bodytype": "SUV",
+    "model": "Captiva",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 6,
+    "brand": "Chevrolet",
+    "bodytype": "SUV",
+    "model": "Equinox",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 7,
+    "brand": "Chevrolet",
+    "bodytype": "SUV",
+    "model": "Trailblazer",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 8,
+    "brand": "Chevrolet",
+    "bodytype": "Pick-up",
+    "model": "Colorado",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 9,
+    "brand": "Chevrolet",
+    "bodytype": "Van",
+    "model": "N400",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 10,
+    "brand": "Chevrolet",
+    "bodytype": "Truck",
+    "model": "NRR",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 11,
+    "brand": "Chevrolet",
+    "bodytype": "Truck",
+    "model": "NPR",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 12,
+    "brand": "KIA",
+    "bodytype": "Car",
+    "model": "Rio",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 13,
+    "brand": "KIA",
+    "bodytype": "Car",
+    "model": "Picanto",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 14,
+    "brand": "KIA",
+    "bodytype": "SUV",
+    "model": "Seltos",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 15,
+    "brand": "KIA",
+    "bodytype": "SUV",
+    "model": "Sonet",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 16,
+    "brand": "Ford",
+    "bodytype": "Car",
+    "model": "Mustang",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 17,
+    "brand": "Ford",
+    "bodytype": "SUV",
+    "model": "Escape",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 18,
+    "brand": "Ford",
+    "bodytype": "SUV",
+    "model": "Edge",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 19,
+    "brand": "Ford",
+    "bodytype": "SUV",
+    "model": "Expedition",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 20,
+    "brand": "Ford",
+    "bodytype": "SUV",
+    "model": "Explorer",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 21,
+    "brand": "Ford",
+    "bodytype": "Pick-up",
+    "model": "Ranger",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 22,
+    "brand": "Ford",
+    "bodytype": "Pick-up",
+    "model": "F150",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 23,
+    "brand": "Renault",
+    "bodytype": "Car",
+    "model": "Kwid",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 24,
+    "brand": "Renault",
+    "bodytype": "Car",
+    "model": "Sandero",
+    "year": 2021,
+    "agenda": 1045
+  },
+  {
+    "id": 25,
+    "brand": "Renault",
+    "bodytype": "Car",
+    "model": "Logan",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 26,
+    "brand": "Renault",
+    "bodytype": "SUV",
+    "model": "Captur",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 27,
+    "brand": "Renault",
+    "bodytype": "SUV",
+    "model": "Duster",
+    "year": 2021,
+    "agenda": 1045
+  },
+  {
+    "id": 28,
+    "brand": "Renault",
+    "bodytype": "SUV",
+    "model": "Koleos",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 29,
+    "brand": "Renault",
+    "bodytype": "Pick-up",
+    "model": "Oroch",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 30,
+    "brand": "Renault",
+    "bodytype": "Pick-up",
+    "model": "Alaskan",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 31,
+    "brand": "Foton",
+    "bodytype": "Truck",
+    "model": "FHR",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 32,
+    "brand": "Foton",
+    "bodytype": "Truck",
+    "model": "FKR",
+    "year": 2023,
+    "agenda": 1045
+  },
+  {
+    "id": 33,
+    "brand": "Foton",
+    "bodytype": "Truck",
+    "model": "FPR",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 34,
+    "brand": "Foton",
+    "bodytype": "Truck",
+    "model": "FRR",
+    "year": 2022,
+    "agenda": 1045
+  },
+  {
+    "id": 35,
+    "brand": "Foton",
+    "bodytype": "Truck",
+    "model": "FVR",
+    "year": 2023,
+    "agenda": 1045
+  }
+]

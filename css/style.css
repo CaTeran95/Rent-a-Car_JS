@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#carInfo {
+  max-width: 1320px;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: 10% 80% auto;
+  grid-template-areas: "carPicture carTitle" "carPicture carInfo" "carPicture buttons";
+}
+#carInfo .carPicture {
+  width: 100%;
+  grid-area: "carPicture";
+}
+#carInfo .carTitle {
+  width: 100%;
+  grid-area: "carTitle";
+}
+#carInfo .carInfo {
+  grid-area: "carInfo";
+  display: flex;
+  flex: row wrap;
+}
+#carInfo .buttons {
+  grid-area: "buttons";
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body header {
+  padding: 2rem 5rem;
+  background-color: #d5ebff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .logo h1 {
+  margin: 0;
+}
+body header ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+body header ul li {
+  padding: 0.25rem 1rem;
+  margin: 0rem 1rem;
+  border-radius: 2rem;
+}
+body header ul li a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #353535;
+}
+body header ul li.active, body header ul li:hover {
+  background-color: #abe0ff;
+}
+body header .userOptions .mainIcon {
+  margin: 0 2rem;
+  padding: 0.75rem;
+  border-radius: 2rem;
+}
+body header .userOptions .userListMenu {
+  padding: 2rem;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: 5rem;
+  z-index: 10;
+  background-color: #d5ebff;
+  border-radius: 0 0 0 2rem;
+  font-size: 1.25rem;
+  align-content: end;
+}
+body header .userOptions .userListMenu p {
+  padding-right: 1rem;
+  text-align: end;
+}
+body header .userOptions .userListMenu .userMenuOption {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  align-self: stretch;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+body header .userOptions .userListMenu .userMenuOption i {
+  width: 2.25rem;
+}
+body header .userOptions .userListMenu .userMenuOption p {
+  margin: 0;
+}
+body header .userOptions .userListMenu .userMenuOption:hover {
+  background-color: #aed4f8;
+}
+body header .userOptions:hover .userListMenu {
+  display: flex;
+}
+body .card .fav-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 1px solid #0b5ed7;
+  border-radius: 50%;
+}
+body .card .fav-btn .favButton {
+  padding: 0.5rem;
+  margin: auto;
+  color: #0b5ed7;
+}
+body .card .fav-btn.isFav {
+  border: 1px solid #aa0101;
+}
+body .card .fav-btn.isFav .favButton {
+  color: #aa0101;
+}
+body .carLogo {
+  width: 100%;
+  border-radius: 20%;
+}
+body .card-colors {
+  background: linear-gradient(#abe0ff, #d8ecf8);
+  color: #353535;
+}
+body .fa-solid {
+  font-size: 2rem;
+}
+body .car-title {
+  font-size: 1.25rem;
+}
+body .specs-title-text {
+  font-size: 0.65rem;
+  font-weight: 300;
+}
+body .specs-value-text {
+  line-height: 1.25;
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
