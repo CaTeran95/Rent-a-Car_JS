@@ -49,7 +49,7 @@
       "level": 2,
       "passengers": 5,
       "trunk": "280 L",
-      "favourite": "Yes",
+      "favourite": "No",
       "motor": [
         "Cilindrada: 1.5L Turbo",
         "Dirección: Asistida eléctricamente",
@@ -89,7 +89,7 @@
       "level": 2,
       "passengers": 5,
       "trunk": "470 L",
-      "favourite": "Yes"
+      "favourite": "No"
     },
     {
       "id": 4,
@@ -144,7 +144,7 @@
       "level": 2,
       "passengers": 5,
       "trunk": "1061 L",
-      "favourite": "Yes"
+      "favourite": "No"
     },
     {
       "id": 9,
@@ -232,7 +232,7 @@
       "level": 1,
       "passengers": 4,
       "trunk": "382 L",
-      "favourite": "No"
+      "favourite": "Yes"
     },
     {
       "id": 17,

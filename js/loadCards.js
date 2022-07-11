@@ -105,7 +105,7 @@ function loadCards(request) {
 					let carID = e.path[0].classList[0];
 					let searchArgs = e.path[2].id;
 					searchArgs = searchArgs.split(" ");
-					fetch(`http://localhost:3000/cars/${(carID % 2) + 1}`)
+					fetch(`http://localhost:3000/cars/${(carID % 2) == 0 ?2 : 1}`)
 						.then((res) => res.json())
 						.then((data) => {
 							sessionStorage.setItem("infoCar", JSON.stringify(data));

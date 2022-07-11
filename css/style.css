@@ -5,27 +5,49 @@
 }
 
 #carInfo {
+  margin: 5rem auto;
+  font-family: "Roboto", sans-serif;
   max-width: 1320px;
   display: grid;
-  grid-template-columns: 40% auto;
+  grid-template-columns: 40% 60%;
   grid-template-rows: 10% 80% auto;
   grid-template-areas: "carPicture carTitle" "carPicture carInfo" "carPicture buttons";
 }
 #carInfo .carPicture {
   width: 100%;
-  grid-area: "carPicture";
+  grid-area: carPicture;
 }
 #carInfo .carTitle {
-  width: 100%;
-  grid-area: "carTitle";
+  grid-area: carTitle;
+  text-align: center;
 }
 #carInfo .carInfo {
-  grid-area: "carInfo";
-  display: flex;
-  flex: row wrap;
+  grid-area: carInfo;
+}
+#carInfo .carInfo ol {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  grid-template-areas: "motor exterior" "safety dimensions";
+}
+#carInfo .carInfo ol #motor {
+  grid-area: motor;
+}
+#carInfo .carInfo ol #exterior {
+  grid-area: exterior;
+}
+#carInfo .carInfo ol #safety {
+  grid-area: safety;
+}
+#carInfo .carInfo ol #dimensions {
+  grid-area: dimensions;
 }
 #carInfo .buttons {
-  grid-area: "buttons";
+  margin: auto;
+  display: flex;
+  gap: 2rem;
+  grid-area: buttons;
 }
 
 body {

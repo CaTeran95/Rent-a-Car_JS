@@ -53,9 +53,16 @@ innerHTML +=
         </ol>
     </div>
     <div class="buttons">
-        <button id="book">Reservar</button>
-        <button id="catalog">Volver al catálogo</button>
+        <button class='btn btn-primary' id="book">Reservar</button>
+        <button class='btn btn-primary' id="catalog">Volver al catálogo</button>
     </div>`;
 
 let main = document.querySelector("main");
 main.innerHTML = innerHTML;
+
+let bookButton = document.querySelector("#book");
+let catalogButton = document.querySelector("#catalog");
+
+catalogButton.addEventListener('click', () => {
+    window.location = '/pages/catalog.html';
+})
