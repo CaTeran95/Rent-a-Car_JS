@@ -9,7 +9,7 @@
       "level": 3,
       "passengers": 5,
       "trunk": "170 L",
-      "favourite": "Yes",
+      "favourite": "No",
       "motor": [
         "Cilindrada: 1.4L",
         "Dirección: Asistida eléctricamente",
@@ -122,7 +122,7 @@
       "level": 2,
       "passengers": 5,
       "trunk": "468 L",
-      "favourite": "No"
+      "favourite": "Yes"
     },
     {
       "id": 7,
@@ -188,7 +188,7 @@
       "level": 2,
       "passengers": 5,
       "trunk": "480 L",
-      "favourite": "No"
+      "favourite": "Yes"
     },
     {
       "id": 13,
@@ -287,7 +287,7 @@
       "level": 1,
       "passengers": 5,
       "trunk": "1396 kg",
-      "favourite": "No"
+      "favourite": "Yes"
     },
     {
       "id": 22,

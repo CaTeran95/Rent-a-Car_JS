@@ -1,0 +1,141 @@
+#mainPageBody {
+    margin: auto;
+    max-width: 1920px;
+    header {
+        width: 1920px;
+        position: absolute;
+        background-color: unset;
+        
+        ul {
+            li {
+                &.active, &:hover {
+                    a {color: #fff;}
+                    background-color: #353535;
+                }
+            }
+        }
+    }
+
+    #mainPageBanner {        
+        img {
+            width: 100%;
+        }
+    }
+
+    #catalogSection {
+        padding-top: 7rem ;
+        padding-bottom: 7rem ;
+        background: linear-gradient(#a8d7f5, #b9d3e0);
+        
+        .cardContainer {
+            max-width: 1532px;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .sectionCard {
+                color: #ffffff;
+                background: linear-gradient(#056399, #3b85b1);
+                width: 450px;
+                // border: 1px solid #000;
+                border-radius: 2rem;
+                img {
+                    width: 100%;
+                    border-radius: 2rem 2rem 0 0;
+                }
+                h3 {
+                    font-size: 1.6rem;
+                    margin-bottom: 0;
+                    padding: 1.5rem 0;
+                    text-align: center;
+                }
+                p {
+                    margin-bottom: 2rem;
+                    text-align: center;
+                    font-size: 1.15rem;
+                    line-height: 1.5;
+                    padding: 0 2rem;
+                }
+            }
+        }
+
+
+    }
+
+    #partners {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        background: linear-gradient(#004774, #00619e);
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            margin-bottom: 2rem;
+            font-size: 2.25rem;
+            text-align: center;
+            color: #a8d7f5;
+        }
+        #partnersLogos {
+            margin: 0 25rem;
+            display: flex;
+            justify-content: space-between;
+            
+            img {
+                border-radius: 50%;
+            }
+        }
+    }
+
+    #companyContact {
+        background-color: #e2ecf1;
+        
+        .contactCard {
+            max-width: 1532px;
+            margin: auto;
+            padding: 7rem 0;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            img{
+                width: 725px;
+            };
+
+            .cardText {
+                width: 725px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h3 {
+                    font-size: 2rem;
+                }
+                
+                p {
+                    font-size: 1.25rem;
+                }
+                
+                #contactFormBtn {
+                    align-self: flex-end;
+                    width: 15rem;
+                    padding: 1rem;
+                    background-color: #3b85b1;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    border: none;
+                    border-radius: 2rem;
+                }
+            }
+            
+        }
+    }
+
+    footer {
+        padding: 1rem 5rem;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+}

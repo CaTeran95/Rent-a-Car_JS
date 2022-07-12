@@ -24,9 +24,9 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="/css/style.css" />
-		<title>Scheduler</title>
+		<title>Rent-a-Car</title>
 	</head>
-	<body>
+	<body id="mainPageBody">
 		<header>
 			<div class="logo">
 				<a href="/index.html"><h1>Rent-a-Car</h1></a>
@@ -58,13 +58,107 @@
 			</div>
 		</header>
 
-		<section id="mainPage"></section>
-		
-        <!-- Cards section -->
-
 		<main id="mainPage">
+			<section id="mainPageBanner" class="">
+				<img
+					src="/assets/images/background/mainPage.jpg"
+					alt="main-page-banner"
+				/>
+			</section>
 
-        </main>
+			<!-- Cards section -->
+
+			<section id="catalogSection" class="cardContainer">
+				<div class="container cardContainer">
+					<div class="sectionCard">
+						<img src="/assets/images/background/captiva.webp" alt="" />
+						<h3>Parque automotor renovado</h3>
+						<p>
+							Nuestra oferta en vehículos cubre todas las gamas y necesidades.
+							Si tu objetivo es viajar por el país, moverte por la ciudad, o si
+							necesitas un vehículo para el transporte de cargas livianas,
+							medias o pesadas, tenemos lo que necesitas
+						</p>
+					</div>
+					<div class="sectionCard">
+						<img src="/assets/images/background/car-agency.webp" alt="" />
+						<h3>Estamos en todo el país</h3>
+						<p>
+							Visítanos en nuestras siete oficinas, ubicadas en las ciudades
+							principales. Contamos además con una gran red de socios
+							estratégicos para proporcionarte asistencia durante tu
+							experiencia, desde conductores designados hasta talleres y estaciones de
+							servicio.
+						</p>
+					</div>
+					<div class="sectionCard">
+						<img src="/assets/images/background/carService.jpg" alt="" />
+						<h3>La seguridad es nuestra prioridad</h3>
+						<p>
+							Todos nuestros vehículos están bajo constante supervisión y operan en optimas condiciones. Un equipo de mecánicos trabajan todos los días para garantizar tu bienestar y el de tus acompañantes a bordo. También cuentas con el seguro <strong>Car Guard</strong>.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section id="partners">
+				<h3>Nuestros aliados estratégicos</h3>
+				<div id="partnersLogos">
+					<img
+						src="/assets/images/partners/car-insurance-logo.webp"
+						alt="car-insurance-company"
+					/>
+					<img
+						src="/assets/images/partners/car-parking-lot-logo.webp"
+						alt="car-parking-company"
+					/>
+					<img
+						src="/assets/images/partners/car-service-logo.webp"
+						alt="car-service-company"
+					/>
+					<img
+						src="/assets/images/partners/car-wash-logo.webp"
+						alt="car-wash-company"
+					/>
+				</div>
+			</section>
+			<section id="companyContact" class="fullWidthCard">
+				<div class="contactCard">
+					<img
+						src="/assets/images/background/contactCenter.jpg"
+						alt="call-center-image"
+					/>
+					<div class="cardText">
+						<h3>Sabemos que a veces necesitas una mano, y estamos para ayudarte</h3>
+						<p>
+							Cuenta con nosotros 24 / 7, nuestro personal ha sido capacitado
+							para resolver cualquier problema que puedas tener con tus contratos:
+							si tienes dudas respecto a tu reserva o deseas cancelar, si has
+							tenido inconvenientes con el vehículo e incluso si sólo quieres más
+							información sobre algún servicio o alianza de nuestra compañía,
+							estamos aquí para escucharte y solucionar tus inquietudes.
+						</p>
+						<p>
+							Puedes comunicarte con nuestros agentes por medio del
+							siguiente formulario o contactar en
+							nuestro PBX <strong>XXX-XXX-XXXX</strong> durante el horario
+							laboral.
+						</p>
+						<button
+							id="contactFormBtn"
+							onclick="{window.location = '/pages/carInfo.html'}"
+						>
+							Ir al formulario
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>PBX XXX-XXX-XXXX</p>
+			<p>rent-a-car@atencion.com.co</p>
+			<p>Desarrollado por Carlos Terán</p>
+		</footer>
 
 		<!-- Bootstrap script -->
 		<script
